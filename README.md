@@ -8,7 +8,7 @@ znaků, které mu přicházení na standardní vstup.
 Například:
 
 ```
-$ curl https://cs.wikipedia.org/wiki/IPv6 2>/den/null | html2text -utf8 \
+$ curl https://cs.wikipedia.org/wiki/IPv6 2>/dev/null | html2text -utf8 \
   | ./pocitadlo.py 
 
  -----------------------------------------------------------------------------
